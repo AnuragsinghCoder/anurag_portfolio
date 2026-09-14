@@ -4,9 +4,9 @@ import { Menu, X } from "lucide-react";
 
 const NavLinks = [
   { href: "#", label: "Home" },
-  { href: "#about", label: "About" },
-  { href: "#projects", label: "Projects" },
-  { href: "#contact", label: "Contact" },
+  { href: "#about", label: "About", active:"false"},
+  { href: "#projects", label: "Projects", active:"false" },
+  { href: "#contact", label: "Contact", active:"false" },
 //   { href: "#experience", label: "Experience" },
 //   { href: "#testimonials", label: "Testimonials" },
 ];
@@ -22,6 +22,7 @@ const Navbar = () => {
        
         return () => window.removeEventListener("scroll", handleScroll);
     },[]);
+
   return (
     <header className= {`fixed top-0 left-0 right-0 transition-all duration-500 ${isUserScrolled ? "glass-strong py-3" : "bg-transparent py-5"}  z-50`}>
         <nav className='container my-auto px-6 flex items-center justify-between'>
@@ -33,7 +34,7 @@ const Navbar = () => {
             <div className='hidden md:flex items-center gap-1 '>
                 <div className='glass rounded-full px-2 py-1 flex item center gap-1'>
                     {NavLinks.map((link) => (
-                        <a key={link.href} href={link.href} className='px-4 py-2 text-sm text-text-muted hover:text-foreground rounded-full hover:bg-accent/10 transition-all duration-300 transform hover:py-1 scale-105'>
+                        <a  key={link.href} href={link.href} className='px-4 py-2 text-sm text-text-muted hover:text-foreground rounded-full hover:bg-accent/10 transition-all duration-300 transform hover:py-1 scale-105'>
                             {link.label}
                         </a>
                     ))}
