@@ -11,7 +11,7 @@ const projects = [
     image: "/projects/project1.png",
     stack: ["React.Js", "Node.Js", "Express.Js","MongoDB", "JWT", "Tailwind", "Vercel"],
     link: "https://react-auth-app-five-brown.vercel.app/",
-    github: "#",
+    github: "https://github.com/AnuragsinghCoder/anurag_portfolio",
   },
   {
     title: "E-Commerce Platform",
