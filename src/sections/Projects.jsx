@@ -14,14 +14,14 @@ const projects = [
     github: "https://github.com/AnuragsinghCoder/anurag_portfolio",
   },
   {
-    title: "E-Commerce Platform",
-    title_description:"Authentication & User Management System Management System",
+    title: "TaskFlow — To-Do Application",
+    title_description:"Responsive Task Management Application",
     description:
-      "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
+      "A modern and responsive task management application built with React and Tailwind CSS. Users can add, complete, delete, filter, and manage tasks with data persistence using browser local storage.",
     image: "/projects/project2.png",
-    stack: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
-    link: "#",
-    github: "#",
+    stack: ["React.js", "JavaScript", "Tailwind", "LocalStorage"],
+    link: "https://react-todo-app-kohl-two.vercel.app/",
+    github: "https://github.com/AnuragsinghCoder/react-ToDo-app",
   },
   {
     title: "AI Writing Assistant",
