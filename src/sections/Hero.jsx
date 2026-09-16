@@ -82,7 +82,7 @@ const Hero = () => {
                  <ArrowRight className='w-5 h-5' />
               </Button>
               <AnimatedBorderButton >
-                Download CV
+                <a href='../public/resume.pdf' download={"anurag_resume.pdf"}>Download CV</a>
                 <Download className='w-5 h-5' />
               </AnimatedBorderButton>
             </div>
@@ -90,9 +90,9 @@ const Hero = () => {
             <div className =" flex items-center gap-4 animate-fade-in animation-delay-500">
               <span className='text-sm text-text-muted'>Follow me: </span>
                 {[
-                  { icon: FaGithub, href: "#" },
-                  { icon: FaLinkedin, href: "#" },
-                  { icon: FaTwitter, href: "#" },
+                  { icon: FaGithub, href: "https://github.com/AnuragsinghCoder" },
+                  { icon: FaLinkedin, href: "https://www.linkedin.com/in/anurag-singh-x-dev/" },
+                  { icon: FaTwitter, href: "https://x.com/ANURAGs19794745" },
                   ].map((social, index) => (
                     <a
                       key={index}
