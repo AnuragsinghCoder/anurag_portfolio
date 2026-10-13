@@ -6,7 +6,7 @@ const NavLinks = [
   { href: "#", label: "Home" },
   { href: "#about", label: "About", active:"false"},
   { href: "#projects", label: "Projects", active:"false" },
-  { href: "#contact", label: "Contact", active:"false" },
+  { href: "https://www.linkedin.com/in/anurag-singh-x-dev/", label: "Let's Connect", active:"false" },
 //   { href: "#experience", label: "Experience" },
 //   { href: "#testimonials", label: "Testimonials" },
 ];
@@ -43,7 +43,7 @@ const Navbar = () => {
 
             {/* CTA Btn */}
             <div className='hidden md:block transform transition-transform duration-300 hover:scale-105'>
-                <Button size ="sm" ><a href="https://www.linkedin.com/in/anurag-singh-x-dev/">Contact Me </a></Button>
+                <Button size ="sm" ><a href="https://www.linkedin.com/in/anurag-singh-x-dev/">Let's Connect</a></Button>
             </div>
 
             {/* Mobile Menu Btn */}

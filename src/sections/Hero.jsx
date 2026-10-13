@@ -6,23 +6,23 @@ import { AnimatedBorderButton } from '../components/AnimatedBorderButton.jsx';
 
 const skills = [
   "React",
-  "Next.js",
-  "TypeScript",
   "Node.js",
-  "GraphQL",
-  "PostgreSQL",
   "MongoDB",
-  "Redis",
-  "Docker",
-  "AWS",
   "Vercel",
   "Tailwind CSS",
-  "Prisma",
-  "Jest",
-  "Cypress",
   "Figma",
   "Git",
   "GitHub Actions",
+  "Express.js",
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "cloudinary",
+  "Postman",
+  "VS Code",
+  "bcrypt",
+  "JWT",
+  "Mongoose"
 ];
 
 const Hero = () => {
@@ -54,25 +54,23 @@ const Hero = () => {
           <div className='space-y-8'>
             <div className =" animate-fade-in animation-delay-100">
               <span className = " inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-accent">
-                <span className = "w-2 h-2 bg-accent rounded-full animate-pulse"/>Software Engineer · React Specialist
+                <span className = "w-2 h-2 bg-accent rounded-full animate-pulse"/>Aspiring Full-Stack Developer · MERN Stack
               </span>
             </div>
             {/* HeadLine */}
             <div className = " space-y-4">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-200">
-                  Crafting <span className ="text-accent glow-text">digital</span>
+                  Building <span className ="text-accent glow-text">digital</span>
                 <br />
                   experiences with
                 <br />
                 <span className ="font-serif italic font-normal text-white">
-                  precision.
+                  modern technologies.
                 </span>
               </h1>
               <p
                 className='text-lg text-text-muted max-w-lg animate-fade-in animation-delay-300 md:max-w-md lg:max-w-lg'>
-                  Hi, I'm <span className='font-serif font-bold italic'>Anurag Singh</span> - a passionate software engineer specializing in
-                   React. I create seamless and engaging web experiences that leave a
-                    lasting impact.
+                  Hi, I'm <span className='font-sans text-white'>Anurag Singh</span> - A Computer Science postgraduate student and aspiring Full-Stack Developer. I enjoy turning ideas into responsive, user-friendly web applications using React, Node.js, Express.js, and MongoDB.
               </p>
             </div>
             {/* Cta's */}
@@ -93,7 +91,7 @@ const Hero = () => {
             </div>
             {/* Social Links */}
             <div className =" flex items-center gap-4 animate-fade-in animation-delay-500">
-              <span className='text-sm text-text-muted'>Follow me: </span>
+              <span className='text-sm text-text-muted'>Find me online: </span>
                 {[
                   { icon: FaGithub, href: "https://github.com/AnuragsinghCoder" },
                   { icon: FaLinkedin, href: "https://www.linkedin.com/in/anurag-singh-x-dev/" },
@@ -125,7 +123,7 @@ const Hero = () => {
                   <div className ="flex items-center gap-3">
                     <div className='w-3 h-3 bg-green-500 rounded-full animate-pulse' />
                     <span>
-                      Available for work
+                      Open to Internships & Entry-Level Developer Roles
                     </span>
                   </div>
                  </div>

@@ -5,24 +5,24 @@ const highlights = [
     icon: Code2,
     title: "Clean Code",
     description:
-      "Writing maintainable, scalable code that stands the test of time.",
+      "I aim to write readable, organized, and reusable code that is easier to understand and maintain.",
   },
   {
     icon: Rocket,
-    title: "Performance",
+    title: "Problem Solving",
     description:
-      "Optimizing for speed and delivering lightning-fast user experiences.",
-  },
-  {
-    icon: Users,
-    title: "Collaboration",
-    description: "Working closely with teams to bring ideas to life.",
+      "I enjoy debugging errors, understanding their root causes, and finding practical solutions.",
   },
   {
     icon: Lightbulb,
-    title: "Innovation",
+    title: "Continuous Learning",
+    description: "I keep improving my knowledge of JavaScript, React, backend development, databases, and web technologies.",
+  },
+  {
+    icon: Users,
+    title: "User Experience",
     description:
-      "Staying ahead with the latest technologies and best practices.",
+      "I focus on responsive layouts, intuitive navigation, and interfaces that work well across different screen sizes.",
   },
 ];
 
@@ -40,39 +40,28 @@ const About = () => {
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-text-secondary">
-              Building the future,
+              A Developer
               <span className="font-serif italic font-normal text-white">
                 {" "}
-                one component at a time.
+                who learns by building.
               </span>
             </h2>
 
             <div className="space-y-4 text-text-muted animate-fade-in animation-delay-200">
               <p>
-                I'm a passionate software engineer with over 5 years of
-                experience crafting digital products that make a difference. My
-                journey started with a curiosity for how things work on the web,
-                and it has evolved into a deep expertise in modern frontend
-                technologies.
+                  I'm Anurag Singh, a Computer Science graduate with a strong interest in full-stack web development. I completed my B.Sc. in Computer Science in 2025 and am currently pursuing an M.Sc. in Computer Science.
               </p>
               <p>
-                I specialize in React, Next.js, and TypeScript, building
-                everything from sleek landing pages to complex enterprise
-                applications. My approach combines technical excellence with a
-                keen eye for design and user experience.
+                My development journey focuses on building complete web applications, from creating responsive user interfaces with React and Tailwind CSS to developing backend APIs using Node.js and Express.js. I work with MongoDB and Mongoose for database operations and have experience implementing authentication and connecting frontend applications to backend services.
               </p>
               <p>
-                When I'm not coding, you'll find me exploring new technologies,
-                contributing to open-source projects, or sharing knowledge with
-                the developer community.
+                I enjoy understanding how applications work behind the scenes, debugging problems, and learning better ways to structure code. My goal is to grow into a skilled Full-Stack Developer by contributing to real projects and learning from experienced developers.
               </p>
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                "My mission is to create digital experiences that are not just
-                functional, but truly delightful — products that users love to
-                use and developers love to maintain."
+                "My goal is to build practical, reliable, and user-friendly web applications while continuously growing as a developer."
               </p>
             </div>
           </div>
