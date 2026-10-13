@@ -82,7 +82,7 @@ const Hero = () => {
                  <ArrowRight className='w-5 h-5' />
               </Button>
               <AnimatedBorderButton >
-                <a   href="/Anurag_Singh_resume_26.pdf"
+                <a   href="/anurag_resume.pdf"
                      target="_blank"
                      rel="noopener noreferrer"
                      download={"anurag_resume.pdf"}>
