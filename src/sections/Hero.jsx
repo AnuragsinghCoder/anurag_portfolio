@@ -118,7 +118,7 @@ const Hero = () => {
               from-accent/50 via-transparent 
               to-accent/5 blur-2xl animate-pulse' />
               <div className =" relative glass rounded-3xl p-2 glow-border">
-                <img src='/profile_img.png' alt='Anurag Singh'
+                <img src='/anurag_profile_pic.png' alt='Anurag Singh'
                  className='w-full aspect-[4/5] object-cover rounded-2xl '/>
                  {/* Floating batch */}
                  <div className='absolute -bottom-4 -right-4 glass rounded-xl px-4 py-3 animate-float'>
