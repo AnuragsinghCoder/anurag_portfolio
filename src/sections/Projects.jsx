@@ -4,11 +4,21 @@ import { AnimatedBorderButton } from '../components/AnimatedBorderButton.jsx';
 
 const projects = [
   {
+    title: "Root & Leaf",
+    title_description:"Full-Stack Development · Personal Project",
+    description:
+      "A full-stack shopping platform featuring product management, authentication, category organization, shopping cart, and order workflows.",
+    image: "/projects/project1.png",
+    stack: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "JWT"],
+    link: "https://root-leaf.vercel.app/",
+    github: "https://github.com/AnuragsinghCoder/Root-Leaf",
+  },
+  {
     title: "React Auth",
     title_description:"Authentication & User Management System Management System",
     title_description:"Authentication & User Management System Management System",
     description:"Full-stack authentication and user management application built with React, Node.js, Express, and MongoDB. Includes JWT authentication, protected APIs, password hashing, and complete user CRUD operations.",
-    image: "/projects/project1.png",
+    image: "/projects/project2.png",
     stack: ["React.Js", "Node.Js", "Express.Js","MongoDB", "JWT", "Tailwind", "Vercel"],
     link: "https://react-auth-app-five-brown.vercel.app/",
     github: "https://github.com/AnuragsinghCoder/anurag_portfolio",
@@ -18,7 +28,7 @@ const projects = [
     title_description:"Responsive Task Management Application",
     description:
       "A modern and responsive task management application built with React and Tailwind CSS. Users can add, complete, delete, filter, and manage tasks with data persistence using browser local storage.",
-    image: "/projects/project2.png",
+    image: "/projects/project3.png",
     stack: ["React.js", "JavaScript", "Tailwind", "LocalStorage"],
     link: "https://react-todo-app-kohl-two.vercel.app/",
     github: "https://github.com/AnuragsinghCoder/react-ToDo-app",
@@ -28,21 +38,12 @@ const projects = [
     title_description:"Authentication & User Management System Management System",
     description:
       "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
-    image: "/projects/project3.png",
+    image: "/projects/project4.png",
     stack: ["React", "OpenAI", "Python", "FastAPI"],
     link: "#",
     github: "#",
-  },
-  {
-    title: "Project Management Tool",
-    title_description:"Authentication & User Management System Management System",
-    description:
-      "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
-    image: "/projects/project4.png",
-    stack: ["Next.js", "Socket.io", "MongoDB", "Redis"],
-    link: "#",
-    github: "#",
-  },
+  }
+
 ];
 
 const Projects = () => {
